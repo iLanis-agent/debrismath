@@ -1,0 +1,974 @@
+{
+ "cases": [
+  {
+   "fn": "volume",
+   "args": [
+    "20",
+    "10",
+    "3"
+   ],
+   "expect": "The pile of 20 ft by 10 ft by 3 ft is 22.22 cu yd."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "22",
+    "20"
+   ],
+   "expect": "The 22 cu yd in dumpsters of 20 cu yd takes 2 dumpsters, leaving 18 cu yd of room in the last."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "22",
+    "400"
+   ],
+   "expect": "The 22 cu yd at 400 lb a cubic yard weigh 8800 lb, or 4.4 tons."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2",
+    "400",
+    "4.4",
+    "2",
+    "75"
+   ],
+   "expect": "The 2 dumpsters at $400 for 4.4 tons, with 2 tons included each, run over by 0.4 tons and cost $830.00."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "61",
+    "552",
+    "78"
+   ],
+   "expect": "The pile of 61 ft by 552 ft by 78 ft is 97274.67 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "942",
+    "954",
+    "322"
+   ],
+   "expect": "The pile of 942 ft by 954 ft by 322 ft is 10717448 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "802",
+    "793",
+    "206"
+   ],
+   "expect": "The pile of 802 ft by 793 ft by 206 ft is 4852337.63 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "459",
+    "818",
+    "119"
+   ],
+   "expect": "The pile of 459 ft by 818 ft by 119 ft is 1654814 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "481",
+    "519",
+    "593"
+   ],
+   "expect": "The pile of 481 ft by 519 ft by 593 ft is 5482812.11 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "979",
+    "27",
+    "914"
+   ],
+   "expect": "The pile of 979 ft by 27 ft by 914 ft is 894806 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "9",
+    "731",
+    "586"
+   ],
+   "expect": "The pile of 9 ft by 731 ft by 586 ft is 142788.67 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "384",
+    "95",
+    "28"
+   ],
+   "expect": "The pile of 384 ft by 95 ft by 28 ft is 37831.11 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "179",
+    "3",
+    "491"
+   ],
+   "expect": "The pile of 179 ft by 3 ft by 491 ft is 9765.44 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "573",
+    "875",
+    "151"
+   ],
+   "expect": "The pile of 573 ft by 875 ft by 151 ft is 2803986.11 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "573",
+    "857",
+    "76"
+   ],
+   "expect": "The pile of 573 ft by 857 ft by 76 ft is 1382245.78 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "176",
+    "615",
+    "983"
+   ],
+   "expect": "The pile of 176 ft by 615 ft by 983 ft is 3940737.78 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "123",
+    "335",
+    "630"
+   ],
+   "expect": "The pile of 123 ft by 335 ft by 630 ft is 961450 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "40",
+    "993",
+    "414"
+   ],
+   "expect": "The pile of 40 ft by 993 ft by 414 ft is 609040 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "697",
+    "212",
+    "855"
+   ],
+   "expect": "The pile of 697 ft by 212 ft by 855 ft is 4679193.33 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "476",
+    "47",
+    "829"
+   ],
+   "expect": "The pile of 476 ft by 47 ft by 829 ft is 686903.26 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "653",
+    "684",
+    "892"
+   ],
+   "expect": "The pile of 653 ft by 684 ft by 892 ft is 14756058.67 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "187",
+    "243",
+    "253"
+   ],
+   "expect": "The pile of 187 ft by 243 ft by 253 ft is 425799 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "766",
+    "333",
+    "238"
+   ],
+   "expect": "The pile of 766 ft by 333 ft by 238 ft is 2248465.33 cu yd."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "137",
+    "259",
+    "508"
+   ],
+   "expect": "The pile of 137 ft by 259 ft by 508 ft is 667606.07 cu yd."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "334103",
+    "24"
+   ],
+   "expect": "The 334103 cu yd in dumpsters of 24 cu yd takes 13921 dumpsters, leaving 1 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "400065",
+    "51"
+   ],
+   "expect": "The 400065 cu yd in dumpsters of 51 cu yd takes 7845 dumpsters, leaving 30 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "986169",
+    "77"
+   ],
+   "expect": "The 986169 cu yd in dumpsters of 77 cu yd takes 12808 dumpsters, leaving 47 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "932945",
+    "8"
+   ],
+   "expect": "The 932945 cu yd in dumpsters of 8 cu yd takes 116619 dumpsters, leaving 7 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "135614",
+    "67"
+   ],
+   "expect": "The 135614 cu yd in dumpsters of 67 cu yd takes 2025 dumpsters, leaving 61 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "918192",
+    "50"
+   ],
+   "expect": "The 918192 cu yd in dumpsters of 50 cu yd takes 18364 dumpsters, leaving 8 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "916922",
+    "8"
+   ],
+   "expect": "The 916922 cu yd in dumpsters of 8 cu yd takes 114616 dumpsters, leaving 6 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "184083",
+    "32"
+   ],
+   "expect": "The 184083 cu yd in dumpsters of 32 cu yd takes 5753 dumpsters, leaving 13 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "304874",
+    "2"
+   ],
+   "expect": "The 304874 cu yd in dumpsters of 2 cu yd takes 152437 dumpsters, leaving 0 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "828905",
+    "24"
+   ],
+   "expect": "The 828905 cu yd in dumpsters of 24 cu yd takes 34538 dumpsters, leaving 7 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "99066",
+    "49"
+   ],
+   "expect": "The 99066 cu yd in dumpsters of 49 cu yd takes 2022 dumpsters, leaving 12 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "276276",
+    "7"
+   ],
+   "expect": "The 276276 cu yd in dumpsters of 7 cu yd takes 39468 dumpsters, leaving 0 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "544483",
+    "87"
+   ],
+   "expect": "The 544483 cu yd in dumpsters of 87 cu yd takes 6259 dumpsters, leaving 50 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "485595",
+    "11"
+   ],
+   "expect": "The 485595 cu yd in dumpsters of 11 cu yd takes 44145 dumpsters, leaving 0 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "28084",
+    "28"
+   ],
+   "expect": "The 28084 cu yd in dumpsters of 28 cu yd takes 1003 dumpsters, leaving 0 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "460428",
+    "81"
+   ],
+   "expect": "The 460428 cu yd in dumpsters of 81 cu yd takes 5685 dumpsters, leaving 57 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "267942",
+    "50"
+   ],
+   "expect": "The 267942 cu yd in dumpsters of 50 cu yd takes 5359 dumpsters, leaving 8 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "826812",
+    "28"
+   ],
+   "expect": "The 826812 cu yd in dumpsters of 28 cu yd takes 29529 dumpsters, leaving 0 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "619542",
+    "99"
+   ],
+   "expect": "The 619542 cu yd in dumpsters of 99 cu yd takes 6258 dumpsters, leaving 0 cu yd of room in the last."
+  },
+  {
+   "fn": "loads",
+   "args": [
+    "813267",
+    "52"
+   ],
+   "expect": "The 813267 cu yd in dumpsters of 52 cu yd takes 15640 dumpsters, leaving 13 cu yd of room in the last."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "624591",
+    "1200"
+   ],
+   "expect": "The 624591 cu yd at 1200 lb a cubic yard weigh 749509200 lb, or 374754.6 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "361909",
+    "2820"
+   ],
+   "expect": "The 361909 cu yd at 2820 lb a cubic yard weigh 1020583380 lb, or 510291.69 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "161944",
+    "3637"
+   ],
+   "expect": "The 161944 cu yd at 3637 lb a cubic yard weigh 588990328 lb, or 294495.16 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "28588",
+    "1149"
+   ],
+   "expect": "The 28588 cu yd at 1149 lb a cubic yard weigh 32847612 lb, or 16423.81 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "559610",
+    "4904"
+   ],
+   "expect": "The 559610 cu yd at 4904 lb a cubic yard weigh 2744327440 lb, or 1372163.72 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "810412",
+    "2540"
+   ],
+   "expect": "The 810412 cu yd at 2540 lb a cubic yard weigh 2058446480 lb, or 1029223.24 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "167243",
+    "88"
+   ],
+   "expect": "The 167243 cu yd at 88 lb a cubic yard weigh 14717384 lb, or 7358.69 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "586887",
+    "2699"
+   ],
+   "expect": "The 586887 cu yd at 2699 lb a cubic yard weigh 1584008013 lb, or 792004.01 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "861636",
+    "1405"
+   ],
+   "expect": "The 861636 cu yd at 1405 lb a cubic yard weigh 1210598580 lb, or 605299.29 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "984096",
+    "2247"
+   ],
+   "expect": "The 984096 cu yd at 2247 lb a cubic yard weigh 2211263712 lb, or 1105631.86 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "990739",
+    "527"
+   ],
+   "expect": "The 990739 cu yd at 527 lb a cubic yard weigh 522119453 lb, or 261059.73 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "885851",
+    "1120"
+   ],
+   "expect": "The 885851 cu yd at 1120 lb a cubic yard weigh 992153120 lb, or 496076.56 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "96000",
+    "2907"
+   ],
+   "expect": "The 96000 cu yd at 2907 lb a cubic yard weigh 279072000 lb, or 139536 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "755511",
+    "2012"
+   ],
+   "expect": "The 755511 cu yd at 2012 lb a cubic yard weigh 1520088132 lb, or 760044.07 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "596252",
+    "3996"
+   ],
+   "expect": "The 596252 cu yd at 3996 lb a cubic yard weigh 2382622992 lb, or 1191311.5 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "765965",
+    "4105"
+   ],
+   "expect": "The 765965 cu yd at 4105 lb a cubic yard weigh 3144286325 lb, or 1572143.16 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "187916",
+    "802"
+   ],
+   "expect": "The 187916 cu yd at 802 lb a cubic yard weigh 150708632 lb, or 75354.32 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "203065",
+    "1295"
+   ],
+   "expect": "The 203065 cu yd at 1295 lb a cubic yard weigh 262969175 lb, or 131484.59 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "445594",
+    "658"
+   ],
+   "expect": "The 445594 cu yd at 658 lb a cubic yard weigh 293200852 lb, or 146600.43 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "732803",
+    "315"
+   ],
+   "expect": "The 732803 cu yd at 315 lb a cubic yard weigh 230832945 lb, or 115416.47 tons."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "329",
+    "1273.46",
+    "50204.7",
+    "20",
+    "5322.42"
+   ],
+   "expect": "The 329 dumpsters at $1273.46 for 50204.7 tons, with 20 tons included each, run over by 43624.7 tons and cost $232607944.11."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "84",
+    "4292.33",
+    "70893.88",
+    "76",
+    "9004.19"
+   ],
+   "expect": "The 84 dumpsters at $4292.33 for 70893.88 tons, with 76 tons included each, run over by 64509.88 tons and cost $581219772.12."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68",
+    "44.92",
+    "81384.35",
+    "56",
+    "526.09"
+   ],
+   "expect": "The 68 dumpsters at $44.92 for 81384.35 tons, with 56 tons included each, run over by 77576.35 tons and cost $40815196.53."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "118",
+    "9682.85",
+    "88114.03",
+    "50",
+    "3883.06"
+   ],
+   "expect": "The 118 dumpsters at $9682.85 for 88114.03 tons, with 50 tons included each, run over by 82214.03 tons and cost $320384587.63."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "778",
+    "1537.01",
+    "54504.47",
+    "66",
+    "109.58"
+   ],
+   "expect": "The 778 dumpsters at $1537.01 for 54504.47 tons, with 66 tons included each, run over by 3156.47 tons and cost $1541679.76."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "583",
+    "6030.89",
+    "71239.65",
+    "71",
+    "7812.1"
+   ],
+   "expect": "The 583 dumpsters at $6030.89 for 71239.65 tons, with 71 tons included each, run over by 29846.65 tons and cost $236681023.34."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "298",
+    "6578.87",
+    "11646.2",
+    "87",
+    "8853.33"
+   ],
+   "expect": "The 298 dumpsters at $6578.87 for 11646.2 tons, with 87 tons included each, run over by 0 tons and cost $1960503.26."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "296",
+    "8536.34",
+    "76467.92",
+    "38",
+    "9674.5"
+   ],
+   "expect": "The 296 dumpsters at $8536.34 for 76467.92 tons, with 38 tons included each, run over by 65219.92 tons and cost $633496872.68."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "667",
+    "1664.2",
+    "66274.48",
+    "46",
+    "2826.38"
+   ],
+   "expect": "The 667 dumpsters at $1664.2 for 66274.48 tons, with 46 tons included each, run over by 35592.48 tons and cost $101707895.02."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "999",
+    "1656.81",
+    "28427.5",
+    "61",
+    "7499"
+   ],
+   "expect": "The 999 dumpsters at $1656.81 for 28427.5 tons, with 61 tons included each, run over by 0 tons and cost $1655153.19."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "701",
+    "382.21",
+    "23964.71",
+    "22",
+    "7402.86"
+   ],
+   "expect": "The 701 dumpsters at $382.21 for 23964.71 tons, with 22 tons included each, run over by 8542.71 tons and cost $63508415.36."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "828",
+    "3173.56",
+    "96260.56",
+    "23",
+    "1813.94"
+   ],
+   "expect": "The 828 dumpsters at $3173.56 for 96260.56 tons, with 23 tons included each, run over by 77216.56 tons and cost $142693914.53."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "416",
+    "3433.26",
+    "79917.84",
+    "8",
+    "4807.55"
+   ],
+   "expect": "The 416 dumpsters at $3433.26 for 79917.84 tons, with 8 tons included each, run over by 76589.84 tons and cost $369637721.45."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "760",
+    "4988.54",
+    "5310.75",
+    "47",
+    "3575.72"
+   ],
+   "expect": "The 760 dumpsters at $4988.54 for 5310.75 tons, with 47 tons included each, run over by 0 tons and cost $3791290.40."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "302",
+    "476.34",
+    "3297.16",
+    "59",
+    "4286.81"
+   ],
+   "expect": "The 302 dumpsters at $476.34 for 3297.16 tons, with 59 tons included each, run over by 0 tons and cost $143854.68."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "26",
+    "9038.17",
+    "96.84",
+    "6",
+    "2768.91"
+   ],
+   "expect": "The 26 dumpsters at $9038.17 for 96.84 tons, with 6 tons included each, run over by 0 tons and cost $234992.42."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40",
+    "2644.61",
+    "8.4",
+    "1",
+    "8560.65"
+   ],
+   "expect": "The 40 dumpsters at $2644.61 for 8.4 tons, with 1 ton included each, run over by 0 tons and cost $105784.40."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "41",
+    "3562.34",
+    "15.79",
+    "0",
+    "154.89"
+   ],
+   "expect": "The 41 dumpsters at $3562.34 for 15.79 tons, with 0 tons included each, run over by 15.79 tons and cost $148501.65."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "20",
+    "5914.01",
+    "191.25",
+    "10",
+    "334.98"
+   ],
+   "expect": "The 20 dumpsters at $5914.01 for 191.25 tons, with 10 tons included each, run over by 0 tons and cost $118280.20."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47",
+    "6942.07",
+    "5.42",
+    "0",
+    "4081.31"
+   ],
+   "expect": "The 47 dumpsters at $6942.07 for 5.42 tons, with 0 tons included each, run over by 5.42 tons and cost $348397.99."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2",
+    "4942.2",
+    "42.68",
+    "5",
+    "5418.52"
+   ],
+   "expect": "The 2 dumpsters at $4942.2 for 42.68 tons, with 5 tons included each, run over by 32.68 tons and cost $186961.63."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "32",
+    "3693.63",
+    "69.42",
+    "2",
+    "2575.18"
+   ],
+   "expect": "The 32 dumpsters at $3693.63 for 69.42 tons, with 2 tons included each, run over by 5.42 tons and cost $132153.64."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "6",
+    "5537.47",
+    "25.05",
+    "9",
+    "8776.74"
+   ],
+   "expect": "The 6 dumpsters at $5537.47 for 25.05 tons, with 9 tons included each, run over by 0 tons and cost $33224.82."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "49",
+    "8931.56",
+    "35.04",
+    "3",
+    "9769.86"
+   ],
+   "expect": "The 49 dumpsters at $8931.56 for 35.04 tons, with 3 tons included each, run over by 0 tons and cost $437646.44."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "14",
+    "4332.38",
+    "3.06",
+    "0",
+    "8206.55"
+   ],
+   "expect": "The 14 dumpsters at $4332.38 for 3.06 tons, with 0 tons included each, run over by 3.06 tons and cost $85765.36."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "43",
+    "1910.39",
+    "435.28",
+    "10",
+    "3863.01"
+   ],
+   "expect": "The 43 dumpsters at $1910.39 for 435.28 tons, with 10 tons included each, run over by 5.28 tons and cost $102543.46."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "31",
+    "9349.72",
+    "137.68",
+    "3",
+    "5947.18"
+   ],
+   "expect": "The 31 dumpsters at $9349.72 for 137.68 tons, with 3 tons included each, run over by 44.68 tons and cost $555561.32."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "29",
+    "2693.47",
+    "111.85",
+    "7",
+    "9824.01"
+   ],
+   "expect": "The 29 dumpsters at $2693.47 for 111.85 tons, with 7 tons included each, run over by 0 tons and cost $78110.63."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "50",
+    "764.52",
+    "67.46",
+    "6",
+    "4974.39"
+   ],
+   "expect": "The 50 dumpsters at $764.52 for 67.46 tons, with 6 tons included each, run over by 0 tons and cost $38226.00."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "11",
+    "5218.11",
+    "27.32",
+    "8",
+    "4857.45"
+   ],
+   "expect": "The 11 dumpsters at $5218.11 for 27.32 tons, with 8 tons included each, run over by 0 tons and cost $57399.21."
+  }
+ ],
+ "errors": [
+  [
+   "volume",
+   [
+    "0",
+    "10",
+    "3"
+   ]
+  ],
+  [
+   "volume",
+   [
+    "20",
+    "0",
+    "3"
+   ]
+  ],
+  [
+   "volume",
+   [
+    "20",
+    "10",
+    "1001"
+   ]
+  ],
+  [
+   "loads",
+   [
+    "0",
+    "20"
+   ]
+  ],
+  [
+   "loads",
+   [
+    "22",
+    "0"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "22",
+    "0"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "0",
+    "400"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "400",
+    "4.4",
+    "2",
+    "75"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "2",
+    "0",
+    "4.4",
+    "2",
+    "75"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "2",
+    "400",
+    "0",
+    "2",
+    "75"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "2",
+    "400",
+    "4.4",
+    "101",
+    "75"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "2",
+    "400",
+    "4.4",
+    "2",
+    "0"
+   ]
+  ]
+ ]
+}
